@@ -15,6 +15,7 @@ The button operations are:
 * Button 1
   * Click: Cycle through modes: ConstantColour / RandomPair / RandomPairFade / RandomSingle / RandomSingleFade.
   * Double-click: Cycle through 3 brightness levels.
+  * Long-press: Cycle through colour palettes.
 * Button 2
   * Click:
     * In ConstantColour mode, select previous colour in pallette.
@@ -28,20 +29,26 @@ The button operations are:
   * Double-click: In modes other than ConstantColour, increase colour interval by 1 s.
   * Long-press: In modes other than ConstantColour, select maxium colour interval.
 
-Colour Pallette
-* White
-* Red
-* Green
-* Blue
-* Cyan
-* Magenta
-* Yellow
+Colour Pallettes
+* Primary
+  * White
+  * Red
+  * Green
+  * Blue
+* Secondary 
+  * White
+  * Red
+  * Green
+  * Blue
+  * Cyan
+  * Magenta
+  * Yellow
 
 Other notes:
 * When fading between colours, the time taken increases as a proportion of the colour interval time.
 * Next colour selection is random, except that the current colour is never repeated.
 * Minimum colour interval is 0.1 s, maximum is 20 s.
-* Some dianostic information is printed on the serial line, configgured at 115200 bps.
+* Some diagnostic information is printed on the serial line, configured at 115200 bps.
 
 ## Version History
 
