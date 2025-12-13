@@ -11,7 +11,25 @@ Current Version:
 
 ## Features
 
-* ?
+The mode, brightness and delay interval are stored in EEPROM. Reset to defaults can be done by holding button 1 on power-up.
+
+The button operations are:
+* Button 1
+** Click: Cycle through modes: ConstantColour / RandomPair / RandomPairFade / RandomSingle / RandomSingleFade.
+** Double-click: Cycle through 3 brightness levels.
+* Button 2
+** Click: In ConstantColour mode, select previous colour in pallette. Otherwise, decrease colour interval by 0.1 s.
+** Double-click: In modes other than ConstantColour, decrease colour interval by 1 s.
+** Long-press: In modes other than ConstantColour, select minium colour interval.
+* Button 3
+** Click: In ConstantColour mode, select next colour in pallette. Otherwise, increase colour interval by 0.1 s.
+** Double-click: In modes other than ConstantColour, increase colour interval by 1 s.
+** Long-press: In modes other than ConstantColour, select maxium colour interval.
+
+Other notes:
+* When fading between colours, the time taken increases as a proportion of the colour internal time.
+* Next colour selection is random, except that the current colour is never repeated.
+* Minimum colour interval is 0.1 s, maximum is 20 s.
 
 ## Code
 
