@@ -2,12 +2,10 @@
 
 ## Overview
 
-**Lightbox Mk1** is the first proptotype of an Arduino Nano based LED art project. It generates fixed/alternating colours on two WS2812 programmable LEDs, and control is provided by 3 push buttons.
+**Lightbox Mk1** is the code for the first proptotype of an Arduino Nano based LED art project by [Andreas Petrou](https://www.instagram.com/andreaspetrouart/). It generates fixed/alternating colours on two WS2812 programmable LEDs, and control is provided by 3 push buttons.
 
-TODO: Link to Instagram.
-
-Current Version:
-* 0.1
+* Current Version: 0.1
+* [Demo](https://www.instagram.com/andreaspetrouart/reel/DNEQazvoYq-/)
 
 ## Features
 
@@ -30,6 +28,10 @@ Other notes:
 * When fading between colours, the time taken increases as a proportion of the colour interval time.
 * Next colour selection is random, except that the current colour is never repeated.
 * Minimum colour interval is 0.1 s, maximum is 20 s.
+
+## Version History
+
+* 0.1 : Initial release.
 
 ## Code
 
