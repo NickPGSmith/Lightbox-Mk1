@@ -41,6 +41,7 @@ Other notes:
 * When fading between colours, the time taken increases as a proportion of the colour interval time.
 * Next colour selection is random, except that the current colour is never repeated.
 * Minimum colour interval is 0.1 s, maximum is 20 s.
+* Some dianostic information is printed on the serial line, configgured at 115200 bps.
 
 ## Version History
 
