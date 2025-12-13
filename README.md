@@ -24,6 +24,15 @@ The button operations are:
   * Double-click: In modes other than ConstantColour, increase colour interval by 1 s.
   * Long-press: In modes other than ConstantColour, select maxium colour interval.
 
+Colour Pallette
+* White
+* Red
+* Green
+* Blue
+* Cyan
+* Magenta
+* Yellow
+
 Other notes:
 * When fading between colours, the time taken increases as a proportion of the colour interval time.
 * Next colour selection is random, except that the current colour is never repeated.
