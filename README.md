@@ -54,6 +54,9 @@ Colour Pallettes
   * Ping
   * LightGreen
   * LightBlue
+  * Maroon
+  * YellowGreen
+  * Navy
   * Orange
   * Purple
   * Indigo
