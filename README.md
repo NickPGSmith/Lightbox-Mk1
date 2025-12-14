@@ -43,6 +43,20 @@ Colour Pallettes
   * Cyan
   * Magenta
   * Yellow
+* Tertiary
+  * White
+  * Red
+  * Green
+  * Blue
+  * Cyan
+  * Magenta
+  * Yellow
+  * Ping
+  * LightGreen
+  * LightBlue
+  * Orange
+  * Purple
+  * Indigo
 
 Other notes:
 * When fading between colours, the time taken increases as a proportion of the colour interval time.
