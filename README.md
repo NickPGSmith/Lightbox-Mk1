@@ -9,7 +9,7 @@
 
 ## Features
 
-The mode, brightness and delay interval are stored in EEPROM. Reset to defaults can be done by holding button 1 on power-up.
+The mode, brightness, pallette, fixed colour/delay interval are stored in EEPROM. Reset to defaults can be done by holding button 1 on power-up.
 
 The button operations are:
 * Button 1
